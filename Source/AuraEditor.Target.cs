@@ -9,7 +9,6 @@ public class AuraEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
-
 		ExtraModuleNames.AddRange( new string[] { "Aura" } );
 	}
 }
