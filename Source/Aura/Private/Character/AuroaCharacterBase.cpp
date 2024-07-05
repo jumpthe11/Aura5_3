@@ -13,6 +13,11 @@ AAuroaCharacterBase::AAuroaCharacterBase()
 	Weapon ->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 
+UAbilitySystemComponent* AAuroaCharacterBase::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
 // Called when the game starts or when spawned
 void AAuroaCharacterBase::BeginPlay()
 {
